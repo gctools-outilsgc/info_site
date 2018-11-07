@@ -1,4 +1,4 @@
-# downtime_message
+# Info Site
 Nginx static site to display downtime messages
 
 ## Setup
