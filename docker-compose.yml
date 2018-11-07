@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  web:
+    build: ./
+    image: info_site
+    restart: always
+    environment:
+    - NGINX_HOST=info.gccollab.ca
+    - NGINX_PORT=80
+    ports:
+      - "9000:80"
+
