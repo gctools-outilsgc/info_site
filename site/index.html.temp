@@ -29,7 +29,7 @@
       <div>
         <div style="height: 50px; padding: 10px;">
 
-          <img src="canada.png" alt="FIP">
+          <img src="images/canada.png" alt="FIP">
           <div class="float-right">
             <button type="button" class="btn btn-primary btn-md" style="font-weight: 550;" onclick="window.location.href='fr.html'">
               FR
@@ -75,7 +75,7 @@
 <div class="col-md-1"></div>
                     <div class="col-md-3">
 					 
-					<img src="laptop.jpg" class="img-fluid float-right">
+					<img src="images/laptop.jpg" class="img-fluid float-right">
 					</div>	 
 					
 					
@@ -84,7 +84,7 @@
                   </div>
 				<div class="col-md-3">
 					 
-					<img src="newest-vertical-bannercrop.jpg" class="img-fluid float-left">
+					<img src="images/newest-vertical-bannercrop.jpg" class="img-fluid float-left">
 					</div>
 					<div class="col-md-1"></div>
 					
@@ -109,7 +109,7 @@
                 </p>
 	
 
-		        <img  src="users.png" class="img-fluid align-center mb-5">
+		        <img  src="images/users.png" class="img-fluid align-center mb-5">
               </div>
 		    
 		    
@@ -119,7 +119,7 @@
                   Keep your team on the same page, find your next professional opportunity, edit documents in real-time, share best 
                   practices, and network with colleagues, partners and citizens across Canada and beyond.
                 </p>
-		       <img src="computer-mobile.png" class="img-fluid align-center mb-5" >
+		       <img src="images/computer-mobile.png" class="img-fluid align-center mb-5" >
               </div>
 		    
 		    
@@ -128,7 +128,7 @@
                 <p style="font-size: 1.25em" id="features">
                  A space to work with no ads and no distractions. Think of GCcollab as a digital public library. 
                 </p>
-		      			  <img src="dollar-free.png" class="img-fluid align-center mb-5" >
+		      			  <img src="images/dollar-free.png" class="img-fluid align-center mb-5" >
               </div>
            </div>
 		   </div>
@@ -149,23 +149,23 @@
 				</div>
 			<div class="col-md-5">	
 			
-						<p><a href="http://gccollab.ca"><img alt="GCcollab Icon" src="gccollabicon.png" width="40" height="40" /></a> <b>GCcollab</b><br /> A collaboration and networking platform available to all orders of government, post-secondary institutions, not-for-profit organizations, as well as their partners and clients by invitation. The first GCTool to be hosted in the cloud, and the first with a mobile app on Apple and Android devices.<br />
+						<p><a href="http://gccollab.ca"><img alt="GCcollab Icon" src="images/gccollabicon.png" width="40" height="40" /></a> <b>GCcollab</b><br /> A collaboration and networking platform available to all orders of government, post-secondary institutions, not-for-profit organizations, as well as their partners and clients by invitation. The first GCTool to be hosted in the cloud, and the first with a mobile app on Apple and Android devices.<br />
 
 
 </p>
-<p><a href="https://gccollab.ca/missions/main" class="image"><img alt="Career marketplace Icon" src="careermarketplace.jpg" width="40" height="40" /></a> <b>The Career Marketplace</b><br /> A feature within GCcollab that matches members with professional development opportunities.
+<p><a href="https://gccollab.ca/missions/main" class="image"><img alt="Career marketplace Icon" src="images/careermarketplace.jpg" width="40" height="40" /></a> <b>The Career Marketplace</b><br /> A feature within GCcollab that matches members with professional development opportunities.
                                                
 </p>
-<p><a href="https://message.gccollab.ca/" class="image"><img alt="Message Icon" src="gcmessage.jpg" width="40" height="40" /></a> <b>Collab Message </b><br /> A messaging service on desktop and mobile that is designed to send direct messages and create private or public channels for open or closed conversations.
+<p><a href="https://message.gccollab.ca/" class="image"><img alt="Message Icon" src="images/gcmessage.jpg" width="40" height="40" /></a> <b>Collab Message </b><br /> A messaging service on desktop and mobile that is designed to send direct messages and create private or public channels for open or closed conversations.
 
 </p>
-<p><a href="https://wiki.gccollab.ca" class="image"><img alt="Collab Wiki Icon" src="gcwiki.png" width="40" height="40"  /></a> <b>Collab Wiki </b><br />A platform to collaboratively create and publish content online. It is editable by users and visible to the public.</p>
+<p><a href="https://wiki.gccollab.ca" class="image"><img alt="Collab Wiki Icon" src="images/gcwiki.png" width="40" height="40"  /></a> <b>Collab Wiki </b><br />A platform to collaboratively create and publish content online. It is editable by users and visible to the public.</p>
 <p>	<a href="http://gcpedia.gc.ca" class="image"><img src="gcpedia.png" alt="GCpedia Icon" width="40" height="40" /></a>
 						<strong> GCpedia</strong></br> A wiki-based collaborative workspace and knowledge-sharing platform, similar to Wikipedia, accessible to all <strong>federal public servants.</strong></p>
 						
 
 						
-<p>	<a href="http://gcconnex.gc.ca" class="image"><img src="gcconnex.png" alt="GCconnex Icon" width="40" height="40" /></a>
+<p>	<a href="http://gcconnex.gc.ca" class="image"><img src="images/gcconnex.png" alt="GCconnex Icon" width="40" height="40" /></a>
 						<strong> GCconnex</strong></br> A collaboration and networking platform accessible to <strong>federal public servants.</strong> </p>
 						
 					

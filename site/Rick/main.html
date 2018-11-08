@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<meta content="ie=edge" http-equiv="x-ua-compatible" />
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" />
+<link rel="stylesheet" href="designSystem.css" />
+<link rel="stylesheet" href="main.css" />
+<link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Rubik:400,500|Nunito+Sans:300,400,600,700" rel="stylesheet" />
+<title data-react-helmet="true">GCcollab - Work with anyone, anywhere.</title>
+<link data-react-helmet="true" href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAABILAAASCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADxHHgCZp1AAiplIBJCZSxmEh0QYR0YlAk9PKQAAAAAAh8ObBX2wiQo7TjgATWtRAAAAAAAAAAAAAAAAAKO6VQChtlMFortUPJ+0U5ybplHQlZZNyYSAREvf23MAAAAAAJHVq2yQy52ba5BpDm6WcAAAAAAAr71ZAKu9WACuvVkcq79Yj6a/VuKht1S5nKhRcZeXTs6Nh0iZAAAAAAAAAACS1qtwldCg5YWygjSVyJQAsrlZAJzQUwC1wFs7scBaxqy/WNWku1VbmbNQC5meTwuWlk3AjYhIiP//mgAAAAAAk9WoL5jSn+GRwItt1//TALW7VgC7wF1CuMFc3LG/Wrimt1Uq6vR2AJmfTwCaoVAzlphN3oiFRkmbmFAAAAAAAJLVqQma0p21mMeOsDhNOga6xGgovMFg0re+W7GptFUbucRdAJqmTwB8SkQAm6NQiJWYTcV6dz8SfXxAAAAAAACe0JUAm9KbcJ7Lj+GMrXMtt8Vrlri/Ycqrr1MhsrdYAAAAAACerlIAnq9SJJumUdeSl0txzdprABYWCwAAAAAAndCXAJ3QmC2hzY/inb16fLXEbM2vt1+D////AE9QJwCcs1IAn4lTAKCyU3+ap1DShIpEIWNUMgRtYDcHRDsjAZ/PlACb0JoHpM6NraLDfruxwGmpub9g3LO6WZ6suleEprlVgqK7VIyhtlTkmqdQ3JOVTKSQh0mwiXpGo3FjOiIAAAAAp8yHAKXNilqoyH/koLJnU7zBX3C5wVywssBav6zAWLimv1froLdU45unUZ6XmU6VkolLio19SHR8bD8WAAAAAKfMhQCmzIcXrMl9zqi8bZUVCQADvMZeBLS/WwipwFgzpr9W3puzUW7//5wAZHE0AAAAAAAAAAAAAAAAAAAAAACpyoIAt8ZrAK7JenSww2/hnqdYMbG9ZACzv1oCq8BYkaW9VsyQqEsZlKxNAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALDHdQCvyHcdtcVt0LG4XpgqHAcEsMFaNay/WOGgtlNo4f10AEFLIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACzxnEAv8FeALjEal66wGDnrbRWe7C/Wa2qvVfFkKRKFZapTQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALvCZQC7w2cHvMFff7jAXOmywFrbqLlWTMLSYwCOn0kAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAu8FdALzBXQi4wVw7sb5aL52tUAOjslMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/8MAAB8DAAAeAQAAHAMAABhjAAAA4wAAgccAAIPAAACAAAAAwAAAAMAfAADiHwAA4D8AAPA/AADwfwAA+H8AAA==" rel="shortcut icon" type="image/png" />
+<meta content="Sample" data-react-helmet="true" name="description" />
+<meta content="sample, something" data-react-helmet="true" name="keywords" />
+<link as="script" href="/design-system-code/app-2260c3c5ca463395e52b.js" rel="preload" />
+<link as="script" href="/design-system-code/0-98a2f23b2e96e497302b.js" rel="preload" />
+<link as="script" href="/design-system-code/8-675c34a00c408b429858.js" rel="preload" />
+<link as="script" href="/design-system-code/component---src-templates-md-template-js-62f4e451e0407122d47d.js" rel="preload" />
+<link as="script" href="/design-system-code/1-aeaa1aefc4a272254bb0.js" rel="preload" />
+<link as="script" href="/design-system-code/webpack-runtime-4a65b9e6fe7e4e87f000.js" rel="preload" />
+<link as="fetch" crossorigin="use-credentials" href="/design-system-code/static/d/561/path---data-tables-7-ac-04c-KTXwmf7OaR3s50XikbVuuhoRkI.json" rel="preload" />
+</head>
+
+<body>
+
+<div id="___gatsby">
+	<div style="position: fixed; z-index: 99999; top: 0; left: 45%">
+		<a class="sr-only sr-only-focusable aurora-skip" href="#main-content">Skip 
+		to main content</a></div>
+	<header class="fixed-top bg-white shadow-sm" role="banner">
+		<div>
+			<div style="height: 50px; padding: 10px">
+				<img alt="FIP" src="data:image/png;base64,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">
+				<div class="float-right">
+					<span class="float-left mr-3 d-none d-md-block">
+					<!-- <div class="search-form search-form-round" style="width:300px;display:inline-block">
+                  <div class="dropdown"><label for="search" class="sr-only">Search</label><input
+
+                      id="search" value="" placeholder="Chercher" aria-haspopup="true"
+
+                      aria-expanded="false" class="form-control" type="text">
+                    <div tabindex="-1" role="menu" aria-hidden="true" class="container-fluid dropdown-menu">
+                      <li class="list-group-item">No results were found.</li>
+                    </div>
+                  </div>
+                </div>--></span><span class="float-right">
+					<div class="LanguageSwitcher">
+						<a aria-disabled="true" class="languageSwitcherButton btn btn-primary btn-md" style="font-weight: 550" href="collab-fra.html" role="button" tabindex="-1">
+						<span><span aria-hidden="true">FR</span><span class="sr-only" lang="en">French</span></span>
+						</a></div>
+					</span></div>
+			</div>
+		</div>
+		<div>
+			<nav aria-label="Main Navigation *Translate*" class="main-nav navbar navbar-expand bg-white" role="navigation" style="padding-bottom: 0">
+				</a>
+				<a class="text-dark logo" href="https://raw.githubusercontent.com/gctools-outilsgc/design-system-code/#%21">
+				<img alt="Logo" class="float-left" src="https://wiki.gccollab.ca/skins/Vector/images/collab/mini_collab_icon.png" style="width: 30px; margin: 5px"><span class="h2 d-none d-md-block float-left font-weight-normal">
+				<!-- -->GCcollab<!-- --> </span></a>
+				<div class="navbar-collapse nav-holder">
+					<ul class="mx-auto nav-site scroll nav nav-tabs" style="border-bottom: none">
+						<li class="nav-item"><a class="nav-link" href="#ab">About</a></li>
+						<li class="nav-item"><a class="nav-link" href="#feat">Features</a></li>
+						<li class="nav-item">
+						<a class="nav-link" href="http://gccollab.ca">Join for free</a></li>
+						<!--<li class="nav-item"><a class="nav-link" href="https://raw.githubusercontent.com/gctools-outilsgc/design-system-code/data/data-overview">Data</a></li> -->
+					</ul>
+				</div>
+				<ul class="ml-auto navbar-nav">
+					<li class="d-none d-md-block nav-item">
+					<a class="nav-link" href="https://github.com/gctools-outilsgc/design-system" style="color: black" target="_blank">
+					<svg aria-hidden="true" class="svg-inline--fa fa-github fa-w-16 " data-icon="github" data-prefix="fab" role="img" style="font-size: 1.5em" viewbox="0 0 496 512" xmlns="http://www.w3.org/2000/svg">
+					<path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path>
+					</svg><span class="sr-only">GitHub</span></a></li>
+					<li class="d-none d-md-block nav-item">
+					<a class="nav-link" href="https://github.com/gctools-outilsgc/design-system/blob/master/master_ui_kit.ai" style="color: black" target="_blank">
+					<svg aria-hidden="true" class="svg-inline--fa fa-download fa-w-16 " data-icon="download" data-prefix="fas" role="img" style="font-size: 1.5em" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+					<path fill="currentColor"
+
+                      d="M216 0h80c13.3 0 24 10.7 24 24v168h87.7c17.8 0 26.7 21.5 14.1 34.1L269.7 378.3c-7.5 7.5-19.8 7.5-27.3 0L90.1 226.1c-12.6-12.6-3.7-34.1 14.1-34.1H192V24c0-13.3 10.7-24 24-24zm296 376v112c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V376c0-13.3 10.7-24 24-24h146.7l49 49c20.1 20.1 52.5 20.1 72.6 0l49-49H488c13.3 0 24 10.7 24 24zm-124 88c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20zm64 0c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20z"></path>
+					</svg><span class="sr-only">DownloadLink</span></a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+      <w-screen mt-4="true" fluid="true" id="container">
+        <h1 class="sr-only">GCcollab</h1>
+        <main id="main-content" role="main">
+          <div class="">
+			  <div class="mt-4 mb-5" style="text-align: center; margin-top: 200px;">
+				  <h2 id="ab" class="display-5">Work together. Better.</h2>
+				  <p class="lead">Work with anyone, anywhere, in real-time.</p>
+			  </div>
+			  <p></p>
+			  <img class="img-fluid float-left mb-5" src="https://wiki.gccollab.ca/images/2/25/Hand-swiping-across-a-cellphone-screen-web.jpg">
+			  <p class="lead"><br></p>
+			  <p class="lead"><br></p>
+			  <div class="mt-4 mb-5" style="text-align: center; margin-top: 200px;">
+				  <h3 class="display-5"><span class="border-bottom">For Everyone</span></h3>
+				  <div class="col-sm">
+					  <p>Organizations, educational institutions, the public, and 
+					  all types of Government.</p>
+				  </div>
+				  <p></p>
+				  <img class="img-fluid align-center mb-5" src="https://wiki.gccollab.ca/images/a/ab/Users.png">
+			  </div>
+			  <div class="mt-4 mb-5" style="text-align: center; margin-top: 200px;">
+				  <h3 class="display-5"><span class="border-bottom">For getting 
+				  work done</span></h3>
+				  <div class="col-sm">
+					  <p>Hold a public consultation. Get input on a new project. 
+					  Build and share documents with partners and clients in real-time. 
+					  Keep staff and clients informed.</p>
+				  </div>
+				  <img class="img-fluid align-center mb-5" src="https://wiki.gccollab.ca/images/f/f5/Computer-mobile.png">
+			  </div>
+			  <div class="mt-4 mb-5" style="text-align: center; margin-top: 200px;">
+				  <h3 class="display-5"><span class="border-bottom">For free</span></h3>
+				  <div class="col-sm">
+					  <p>Use our tools to work with anyone. Or download them and 
+					  customize for your own organization. For free. Forever.
+					  </p>
+				  </div>
+				  <img class="img-fluid align-center mb-5" src="https://wiki.gccollab.ca/images/5/52/Collab-dollar-free.png">
+			  </div>
+			  <div class=" row col-md-12 mx-auto justify-content-center" style="width: 100%">
+				  <h3 id="feat" class="text-primary mb-5">How do our tools compare 
+				  to the competition?</h3>
+				  <p class="lead col-md-12 text-center">
+				  <span class="badge badge-primary">ACCESS</span></p>
+				  <table class="table table-sm table-striped table-responsive mb-5 ">
+					  <caption class="invisible">Access</caption>
+					  <thead>
+						  <tr>
+							  <th scope="col" style="width: 20%;">Features</th>
+							  <th scope="col">Collab</th>
+							  <th scope="col">Sharepoint <br>Online Plan 2</th>
+							  <th scope="col">Facebook</th>
+							  <th scope="col">Twitter</th>
+							  <th scope="col">LinkedIn</th>
+						  </tr>
+					  </thead>
+					  <tr style="height: 15pt">
+						  <td>
+						  <p><span style="">Web based</span></p>
+						  </td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+					  </tr>
+					  <tr style="height: 15pt">
+						  <td>
+						  <p><span style="">Mobile app</span></p>
+						  </td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  (beta)</span><p></p>
+						  </span></td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+					  </tr>
+					  <tr style="height: 17pt">
+						  <td>
+						  <p><span style="">External organization access</span></p>
+						  </td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+					  </tr>
+					  <tr style="height: 15pt">
+						  <td>
+						  <p><span style="">All-of-government access</span></p>
+						  </td>
+						  <td>
+						  <p>
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span></p>
+						  </td>
+						  <td>
+						  <p>
+						  <span class="fas fa-check-circle text-success lead">
+						  </span></p>
+						  </td>
+						  <td>
+						  <p>
+						  <span alt="No" class="fas fa-times-circle text-danger lead">
+						  </span></p>
+						  </td>
+						  <td>
+						  <p>
+						  <span alt="No" class="fas fa-times-circle text-danger lead">
+						  </span></p>
+						  </td>
+					  </tr>
+					  <tr style="height: 15pt">
+						  <td>
+						  <p><span style="">Pricing (Annual enterprise pricing, 
+						  based on 1000 users)</span></p>
+						  </td>
+						  <td>
+						  <p><span style="">Free</span></p>
+						  </td>
+						  <td>
+						  <p>$125,000<br>(enterprise)</p>
+						  </td>
+						  <td>
+						  <p>$36,000</p>
+						  </td>
+						  <td>
+						  <p><span style="">Free (with ads)</span></p>
+						  </td>
+						  <td>
+						  <p>$599,880<br>(business plan)</p>
+						  </td>
+					  </tr>
+				  </table>
+				  <div>
+					  <p class="lead"><span class="badge badge-primary">PRODUCTIVITY</span></p>
+				  </div>
+				  <table class="table  table-sm table-striped table-responsive mb-5">
+					  <caption class="invisible">Productivity</caption>
+					  <thead>
+						  <tr>
+							  <th scope="col" style="width: 20%">Features</th>
+							  <th scope="col">Collab</th>
+							  <th scope="col">Sharepoint <br>Online Plan 2</th>
+							  <th scope="col">Facebook</th>
+							  <th scope="col">Twitter</th>
+							  <th scope="col">LinkedIn</th>
+						  </tr>
+					  </thead>
+					  <tr style="height: 15pt">
+						  <td>
+						  <p><span style="">Open Workspaces</span></p>
+						  </td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+						  <td>
+						  <p>
+						  <span alt="No" class="fas fa-times-circle text-danger lead">
+						  </span></p>
+						  </td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+					  </tr>
+					  <tr style="height: 15pt">
+						  <td>
+						  <p><span style="">Private Workspaces</span></p>
+						  </td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+						  <td>
+						  <p>
+						  <span alt="No" class="fas fa-times-circle text-danger lead">
+						  </span></p>
+						  </td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+					  </tr>
+					  <tr style="height: 25pt">
+						  <td>
+						  <p><span style="">Share and edit files</span></p>
+						  </td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+						  <td>
+						  <p>
+						  <span alt="No" class="fas fa-times-circle text-danger lead">
+						  </span></p>
+						  </td>
+						  <td>
+						  <p>
+						  <span alt="No" class="fas fa-times-circle text-danger lead">
+						  </span></p>
+						  </td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+					  </tr>
+					  <tr style="height: 15pt">
+						  <td>
+						  <p><span style="">Real-time document editing</span></p>
+						  </td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  (beta)</span><p></p>
+						  </span></td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+						  <td>
+						  <p>
+						  <span alt="No" class="fas fa-times-circle text-danger lead">
+						  </span></p>
+						  </td>
+						  <td>
+						  <p>
+						  <span alt="No" class="fas fa-times-circle text-danger lead">
+						  </span></p>
+						  </td>
+						  <td>
+						  <p>
+						  <span alt="No" class="fas fa-times-circle text-danger lead">
+						  </span></p>
+						  </td>
+					  </tr>
+				  </table>
+				  <div>
+					  <p class="lead"><span class="badge badge-primary">COMMUNICATION</span></p>
+				  </div>
+				  <table class="table table-sm  table-striped table-responsive mb-5">
+					  <caption class="invisible">Communication</caption>
+					  <thead>
+						  <tr>
+							  <th scope="col" style="width: 20%">Features</th>
+							  <th scope="col">Collab</th>
+							  <th scope="col">Sharepoint <br>Online Plan 2</th>
+							  <th scope="col">Facebook</th>
+							  <th scope="col">Twitter</th>
+							  <th scope="col">LinkedIn</th>
+						  </tr>
+					  </thead>
+					  <tr>
+						  <td>
+						  <p><span style="">Discussions</span></p>
+						  </td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+					  </tr>
+					  <tr>
+						  <td>
+						  <p><span style="">Instant messaging</span></p>
+						  </td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  (beta)</span><p></p>
+						  </span></td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+					  </tr>
+					  <tr>
+						  <td>
+						  <p><span style="">Post and find jobs</span></p>
+						  </td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+						  <td>
+						  <p>
+						  <span alt="No" class="fas fa-times-circle text-danger lead">
+						  </span></p>
+						  </td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+						  <td>
+						  <p>
+						  <span alt="No" class="fas fa-times-circle text-danger lead">
+						  </span></p>
+						  </td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+					  </tr>
+					  <tr>
+						  <td>
+						  <p><span style="">Blog feature</span></p>
+						  </td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+						  <td>
+						  <p>
+						  <span alt="No" class="fas fa-times-circle text-danger lead">
+						  </span></p>
+						  </td>
+						  <td>
+						  <p>
+						  <span alt="No" class="fas fa-times-circle text-danger lead">
+						  </span></p>
+						  </td>
+						  <td>
+						  <p>
+						  <span alt="No" class="fas fa-times-circle text-danger lead">
+						  </span></p>
+						  </td>
+					  </tr>
+					  <tr>
+						  <td>
+						  <p><span style="">Filter news and site activity by topic</span></p>
+						  </td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+						  <td>
+						  <p>
+						  <span alt="No" class="fas fa-times-circle text-danger lead">
+						  </span></p>
+						  </td>
+						  <td>
+						  <p>
+						  <span alt="No" class="fas fa-times-circle text-danger lead">
+						  </span></p>
+						  </td>
+						  <td>
+						  <p>
+						  <span alt="No" class="fas fa-times-circle text-danger lead">
+						  </span></p>
+						  </td>
+					  </tr>
+					  <tr>
+						  <td>
+						  <p><span style="">Find members by field (ie,Government, 
+						  business, academic, media, etc.)</span></p>
+						  </td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+						  <td>
+						  <p>
+						  <span alt="No" class="fas fa-times-circle text-danger lead">
+						  </span></p>
+						  </td>
+						  <td>
+						  <p>
+						  <span alt="No" class="fas fa-times-circle text-danger lead">
+						  </span></p>
+						  </td>
+						  <td>
+						  <p>
+						  <span alt="No" class="fas fa-times-circle text-danger lead">
+						  </span></p>
+						  </td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+					  </tr>
+				  </table>
+				  <div>
+					  <p class="lead"><span class="badge badge-primary">FINE PRINT</span></p>
+				  </div>
+				  <table class="table table-sm  table-striped table-responsive">
+					  <caption class="invisible">Fine Print</caption>
+					  <thead>
+						  <tr>
+							  <th scope="col" style="width: 10%;">Features</th>
+							  <th scope="col" style="width: 5%;">Collab</th>
+							  <th scope="col" style="width: 5%;">Sharepoint <br>
+							  Online Plan 2</th>
+							  <th scope="col" style="width: 5%;">Facebook</th>
+							  <th scope="col" style="width: 5%;">Twitter</th>
+							  <th scope="col" style="width: 5%;">LinkedIn</th>
+						  </tr>
+					  </thead>
+					  <tr>
+						  <td>
+						  <p><span style="">Dedicated user community that continuously 
+						  works to improve the software</span></p>
+						  </td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+						  <td>
+						  <p>
+						  <span alt="No" class="fas fa-times-circle text-danger lead">
+						  </span></p>
+						  </td>
+						  <td>
+						  <p>
+						  <span alt="No" class="fas fa-times-circle text-danger lead">
+						  </span></p>
+						  </td>
+						  <td>
+						  <p>
+						  <span alt="No" class="fas fa-times-circle text-danger lead">
+						  </span></p>
+						  </td>
+						  <td>
+						  <p>
+						  <span alt="No" class="fas fa-times-circle text-danger lead">
+						  </span></p>
+						  </td>
+					  </tr>
+					  <tr>
+						  <td>
+						  <p><span style="">Open Source</span></p>
+						  </td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-check-circle text-success lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+						  <td>
+						  <p>
+						  <span alt="No" class="fas fa-times-circle text-danger lead">
+						  </span></p>
+						  </td>
+						  <td>
+						  <p>
+						  <span alt="No" class="fas fa-times-circle text-danger lead">
+						  </span></p>
+						  </td>
+						  <td>
+						  <p>
+						  <span alt="No" class="fas fa-times-circle text-danger lead">
+						  </span></p>
+						  </td>
+						  <td>
+						  <p>
+						  <span alt="No" class="fas fa-times-circle text-danger lead">
+						  </span></p>
+						  </td>
+					  </tr>
+					  <tr>
+						  <td>
+						  <p>Ad-free</p>
+						  </td>
+						  <td>
+						  <p>
+						  <span alt="No" class="fas fa-check-circle text-success lead">
+						  </span></p>
+						  </td>
+						  <td>
+						  <p>
+						  <span alt="No" class="fas fa-times-circle text-success lead">
+						  </span></p>
+						  </td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-times-circle text-danger lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-times-circle text-danger lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+						  <td><span <p="">
+						  <span alt="Yes" class="fas fa-times-circle text-danger lead">
+						  </span>
+						  <p></p>
+						  </span></td>
+					  </tr>
+					  <tr>
+						  <td>Easy to learn and use?</td>
+						  <td>
+						  <span class="bg-danger rounded col-sm-11 lead" style="color: #ffffff">
+						  Medium</span></td>
+						  <td><span class="bg-success rounded col-sm-11 lead">Easy</span></td>
+						  <td><span class="bg-success rounded col-sm-11 lead">Easy</span></td>
+						  <td><span class="bg-success rounded col-sm-12 lead">Easy</span></td>
+						  <td><span class="bg-success rounded col-sm-12 lead">Easy</span></td>
+					  </tr>
+				  </table>
+				  <br></b>
+				  <p></p>
+			  </div>
+			  <!-- end table width-->
+			  <div style="text-align: center">
+				  <a class="mb-5 btn btn-secondary" href="http://gccollab.ca">
+				  <span class="h1" style="text-align: center;">Join GCcollab and 
+				  start<br>working with others</span></a></div>
+			  <div class="container">
+				  <div class="row" style="background-color: #467B8D; color: #ffffff; font-size: x-small;">
+					  <div class="col-sm-6">
+						  <ul>
+							  <span class="h4">Contact/Support<h4></h4>
+							  <ul class="h6">
+								  <li>
+								  <a class="text-light" href="https://gccollab.ca/help/knowledgebase">
+								  GCcollab’s Knowledge Base </a></li>
+								  <li>
+								  <a class="text-light" href="https://gccollab.ca/groups/profile/11776/gccollab-group-owners-and-operators-corner-coin-des-proprietaires-et-des-administrateurs-de-groupes-sur-gccollab">
+								  GCcollab Group Owners’ and Operators’ Corner
+								  </a></li>
+								  <li>
+								  <a class="text-light" href="https://gccollab.ca/groups/profile/967/gccollab-cafe">
+								  GCcollab Café </a></li>
+							  </ul>
+						  </ul>
+					  </div>
+					  <div class="col-sm-6">
+						  <span class="h4">About Our Tools</span>
+						  <ul class="h6">
+							  <li>
+							  <a class="text-light" href="https://gccollab.ca/groups/profile/416546/the-open-accessible-digital-workspace-lespace-de-travail-numerique-ouvert-et-accessible">
+							  The Open, Accessible Digital Workspace </a></li>
+							  <ul>
+								  <li>
+								  <a class="text-light" href="https://gccollab.ca">
+								  GCcollab </a></li>
+								  <li>
+								  <a class="text-light" href="https://wiki.gccollab.ca">
+								  Collab Wiki </a></li>
+								  <li>
+								  <a class="text-light" href="https://message.gccollab.ca">
+								  Message </a></li>
+							  </ul>
+						  </ul>
+					  </div>
+				  </div>
+			  </div>
+	
+    </main>
+      </w-screen></div>
+	<script id="gatsby-script-loader">/*<![CDATA[*/window.page={"componentChunkName":"component---src-pages-index-js","jsonName":"index","path":"/"};window.dataPath="457/path---index-6a9-SxEY0C43eRI2rvJGKqZx1c5Vng";/*]]>*/</script>
+	<script async="" src="https://raw.githubusercontent.com/gctools-outilsgc/design-system-code/webpack-runtime-e231adc854cc1437b329.js"></script>
+	<script async="" src="https://raw.githubusercontent.com/gctools-outilsgc/design-system-code/0-a4ce69f0a7b39eb476cf.js"></script>
+	<script async="" src="https://raw.githubusercontent.com/gctools-outilsgc/design-system-code/1-f3fe8f7fa27deb7302d0.js"></script>
+	<script async="" src="https://raw.githubusercontent.com/gctools-outilsgc/design-system-code/app-116cd7c542ba6557666d.js"></script>
+	<script async="" src="https://raw.githubusercontent.com/gctools-outilsgc/design-system-code/component---src-pages-index-js-be05469c33e0a13a6322.js"></script>
+	</span></div>
+
+</body>
+
+</html>
